@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:uid="http://www.uid.admin.ch/xmlns/uid-wse" xmlns:ns="http://www.ech.ch/xmlns/eCH-0097-f/2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <uid:GetByUID>
+         <!--Optional:-->
+         <uid:uid>
+            <!--Optional:-->
+            <ns:uidOrganisationIdCategorie>CHE</ns:uidOrganisationIdCategorie>
+            <!--Optional:-->
+            <ns:uidOrganisationId>112756766</ns:uidOrganisationId>
+         </uid:uid>
+      </uid:GetByUID>
+   </soapenv:Body>
+</soapenv:Envelope>
